@@ -56,4 +56,3 @@ zxing = { module = "com.google.zxing:core", version.ref = "zxing" }
 crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "crashlytics" }
 deps-sorting = { id = "com.squareup.sort-dependencies", version.ref = "autonomousappsSorting" }
 deps-unused = { id = "com.autonomousapps.dependency-analysis", version.ref = "autonomousappsUnused" }
-
