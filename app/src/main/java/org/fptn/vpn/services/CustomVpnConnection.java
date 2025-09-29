@@ -26,6 +26,8 @@ import org.fptn.vpn.utils.NetworkType;
 import org.fptn.vpn.vpnclient.exception.ErrorCode;
 import org.fptn.vpn.vpnclient.exception.PVNClientException;
 
+import java.io.BufferedInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -33,7 +35,6 @@ import java.net.InetAddress;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionException;
@@ -51,6 +52,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 public class CustomVpnConnection extends Thread {
+    /**
+     * Minimum interval between sends
+     */
+    public static final long MIN_SEND_INTERVAL_MS = 5;
     /**
      * Maximum packet size is constrained by the MTU
      */
@@ -189,12 +194,16 @@ public class CustomVpnConnection extends Thread {
             // Packets to be sent are queued in this input stream.
             try (FileInputStream inputStream = new FileInputStream(vpnInterface.getFileDescriptor())) {
                 byte[] byteBuffer = new byte[MAX_PACKET_SIZE];
-                while (!currentThread.isInterrupted()) {
+                while (!currentThread.isInterrupted() && vpnInterface.getFileDescriptor().valid()) {
                     try {
                         int length = inputStream.read(byteBuffer);
                         if (length > 0) {
                             uploadRate.update(length);
-                            webSocketClient.send(Arrays.copyOf(byteBuffer, length));
+                            webSocketClient.send(byteBuffer);
+                        } else {
+                            // if read buffer empty - sleep
+                            //Log.d(getTag(), "Read zero from vpn interface. Sleep...");
+                            Thread.sleep(MIN_SEND_INTERVAL_MS);
                         }
                     } catch (Exception e) {
                         Log.d(getTag(), "Error reading data from VPN interface: " + e.getMessage());
