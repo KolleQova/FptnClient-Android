@@ -1,150 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_version">Version 1.0.0 </string>
+    <string name="app_version">نسخه 1.0.0  </string>
     <string name="app_name" translatable="false">FPTN VPN</string>
 
-    <string name="select_server">Select server</string>
-    <string name="connection_time">Connection Time</string>
-    <string name="state_disconnect">Disconnected</string>
+    <string name="select_server">انتخاب سرور</string>
+    <string name="connection_time">زمان اتصال</string>
+    <string name="state_disconnect">اتصال قطع شد</string>
 
-    <string name="login_button">Login</string>
-    <string name="logout_button">Logout</string>
-    <string name="update_token_button">Update token</string>
+    <string name="login_button">ورود</string>
+    <string name="logout_button">خروج</string>
+    <string name="update_token_button">بروزرسانی کلید</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_share">Share</string>
+    <string name="menu_home">صفحه اصلی</string>
+    <string name="menu_settings">تنظیمات</string>
+    <string name="menu_share">اشتراک گذاری</string>
 
-    <string name="your_servers">Your VPN servers</string>
+    <string name="your_servers">سرورهای شما</string>
 
-    <string name="reconnect_on_change_ip_settings_title">Reconnect on change IP?</string>
+    <string name="reconnect_on_change_ip_settings_title">اتصال مجدد هنگام تغییر آی‌پی؟</string>
 
     <string name="settings_token_info_html">
         <![CDATA[
-        The list of available servers is encrypted in the token.
+       سرورهای موجود به طور رمزگذاری شده در کلید هستند.
         <br/>
-        To update the server list, enter a new token.
+        برای بروزرسانی سرورها، کلید جدیدی وارد کنید.
         <br/>
-        The token works like a password: once updated, it will no longer be valid on any devices where it was previously used.
+        زمانی که کلید جدیدی دریافت می‌کنید، کلید قبلی از کار می‌افتد.
         ]]>
     </string>
 
-    <string name="share_title">Share via</string>
-    <string name="share_message">FPTN is a non-commercial VPN, a volunteer project for bypassing censorship.
+    <string name="share_title">اشتراک گذاری</string>
+<string name="share_message">فیلترشکن اف‌تی‌پی‌ان یک فیلترشکن رایگان و نامحدود است و به طور داوطلبانه، برای عبور از فیلترینگ ساخته شده.
 https://fptn.org
 https://play.google.com/store/apps/details?id=org.fptn.vpn
     </string>
     <string name="info_message_html">
         <![CDATA[
-        FPTN is a non-commercial, volunteer-driven VPN project aimed at bypassing censorship.
+        اف‌تی‌پی‌ان، یک فیلترشکن رایگان است که دسترسی امن و خصوصی را به اینترنت آزاد فراهم می‌کند. 
         <br/>
         <br/>
-        Our website: <a href="https://batchar2.github.io/fptn/">fptn.org</a>
+        وب‌سایت <a href="https://batchar2.github.io/fptn/">fptn.org</a>
         <br/>
-        Our Telegram group: <a href="https://t.me/fptn_project">@fptn_project</a>
+        گروه تلگرام <a href="https://t.me/fptn_project">@fptn_project</a>
         <br/>
-        App on <a href="https://play.google.com/store/apps/details?id=org.fptn.vpn">Google Play Market</a>
+        این برنامه در گوگل‌پلی <a href="https://play.google.com/store/apps/details?id=org.fptn.vpn">Google Play Market</a>
         <br/>
-        You can support us on <a href="https://boosty.to/fptn/donate">Boosty</a>
+        از ما حمایت کنید <a href="https://boosty.to/fptn/donate">Boosty</a>
         ]]>
     </string>
 
-    <string name="connecting">FptnVPN is connecting...</string>
-    <string name="connected">FptnVPN is connected</string>
-    <string name="disconnected">FptnVPN is disconnected</string>
-    <string name="error">Error on connecting occurs!</string>
-    <string name="paste_your_token">Paste your token here...</string>
-    <string name="running">FptnVPN is running</string>
-    <string name="reconnection">FptnVPN is reconnecting...</string>
+    <string name="connecting">درحال اتصال...</string>
+    <string name="connected">متصل شد</string>
+    <string name="disconnected">متصل نیست</string>
+    <string name="error">مشکل در اتصال، دوباره امتحان کنید</string>
+    <string name="paste_your_token">کلید خود را اینجا وارد کنید</string>
+    <string name="running">درحال اجرا...</string>
+    <string name="reconnection">درحال اتصال مجدد...</string>
 
-    <string name="vpn_permission_warning">For running FptnVPN need permissions!</string>
+    <string name="vpn_permission_warning">دسترسی های نیاز را فراهم کنید</string>
 
 
-    <string name="dialog_logout_title">Confirm Action</string>
-    <string name="dialog_logout_message">Are you sure you want to logout?</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
+    <string name="dialog_logout_title">خروج از حساب</string>
+    <string name="dialog_logout_message">آیا برای خروج اطمینان دارید؟ برای ورود مجدد نیاز به کلید اتصال دارید.</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
 
-    <string name="cancel_button">Cancel</string>
-    <string name="save_button">Save</string>
+    <string name="cancel_button">لغو</string>
+    <string name="save_button">ذخیره</string>
 
-    <string name="server_label">Server:</string>
+    <string name="server_label">سرور:</string>
 
     <string name="telegram_bot_html">
         <![CDATA[
-        Use the Telegram-bot <a href="https://t.me/fptn_bot">@fptn_bot</a> to get a token
+         دریافت کلید اتصال از بات تلگرام <a href="https://t.me/fptn_bot">@fptn_bot</a>
         ]]>
     </string>
 
-    <string name="notification_channel_name">When connected</string>
-    <string name="notification_group_name">Main</string>
-    <string name="disconnect_action">Disconnect</string>
+    <string name="notification_channel_name">هنگام اتصال</string>
+    <string name="notification_group_name">اصلی</string>
+    <string name="disconnect_action">قطع اتصال</string>
 
-    <string name="token_was_updated">Token was updated!</string>
-    <string name="token_saving_failed">Invalid link format!</string>
+    <string name="token_was_updated">کلید اتصال بروزرسانی شد!</string>
+    <string name="token_saving_failed">کلید اتصال اشتباه است</string>
 
     <string name="telegram_bot_link" translatable="false">https://t.me/fptn_bot</string>
 
     <!--Error codes strings-->
-    <string name="server_list_is_empty">Server list is empty</string>
-    <string name="find_fastest_server_timeout">The time limit to find the fastest server has expired.</string>
-    <string name="all_servers_are_unreachable">All servers are currently unreachable.</string>
-    <string name="connect_to_server_error">A technical error occurred while connecting to the server. Please check your device\'s time settings and make sure you are using a valid token.</string>
-    <string name="dns_server_error">Network error: Failed to retrieve DNS information from the server.</string>
-    <string name="vpn_interface_error">Failed to create the VPN interface.</string>
-    <string name="ciphers_error">The list of supported ciphers is empty.</string>
-    <string name="no_active_internet_connections">Not connected to Internet.</string>
-    <string name="reconnecting_failed">Reconnection Failed.</string>
+    <string name="server_list_is_empty">سروری وجود ندارد</string>
+    <string name="find_fastest_server_timeout">زمان پیدا کردن سرور مناسب به اتمام رسیده، دوباره امتحان کنید.</string>
+    <string name="all_servers_are_unreachable">امکان اتصال وجود ندارد، دوباره امتحان کنید.</string>
+    <string name="connect_to_server_error">مشکلی در اتصال بوجود آمد. لطفا کلید اتصال و صحت زمان و تاریخ دستگاه خود را بررسی کنید.</string>
+    <string name="dns_server_error"> پیدا کردن دی‌ان‌اس به مشکل خورد.</string>
+    <string name="vpn_interface_error"> ایجاد اینترفیس به مشکل خورد.</string>
+    <string name="ciphers_error"> فهرست رمزنگار های پشتیبانی شده خالی است.</string>
+    <string name="no_active_internet_connections">به اینترنت متصل نیستید.</string>
+    <string name="reconnecting_failed">اتصال مجدد به مشکل خورد.</string>
 
-    <string name="access_token_error">Authentication error! Please refresh your access token in the application settings.</string>
+    <string name="access_token_error">کلید اتصال مشکلی دارد. کلید اتصال خود را در تنظیمات بروز کنید.</string>
 
-    <string name="ssl_context_init_failed">SSL context initialization failed!</string>
+    <string name="ssl_context_init_failed">راه اندازی اس‌اس‌ال به مشکل خورد.</string>
 
-    <string name="unknown_error">Unknown error occurred! We don\'t know what has happened and it\'s scary.</string>
+    <string name="unknown_error">یچی به مشکل خورد که نمیدونیم چیه! دوباره امتحان کنید.</string>
     <string name="list_point" translatable="false">•</string>
 
-    <string name="notifications_request_title">Please enable notifications.</string>
-    <string name="notifications_request_reason">For a stable connection, the application needs to show a notification once the connection is established.</string>
-    <string name="grant">Grant</string>
-    <string name="deny">Deny</string>
+    <string name="notifications_request_title">نوتیفیکیشن را فعال کنید.</string>
+    <string name="notifications_request_reason">برای اتصال پایدار، برنامه نیاز دارد تا اعلانی را نشان دهد.</string>
+    <string name="grant">اعطای دسترسی</string>
+    <string name="deny">عدم اجازه</string>
     <string name="zero_time" translatable="false">00:00:00</string>
     <string name="zero_speed" translatable="false">0.00 Kbps</string>
-    <string name="connecting_to">"Connecting to "</string>
-    <string name="connected_to">"Connected to "</string>
-    <string name="reconnection_to">"Reconnection to "</string>
-    <string name="try_number">"Reconnection attempt number: "</string>
-    <string name="download_upload_speed_pattern">Download: %s Upload: %s</string>
-    <string name="refresh_token">Refresh token...</string>
+    <string name="connecting_to">"درحال اتصال  "</string>
+    <string name="connected_to">"متصل به  "</string>
+    <string name="reconnection_to">"درحال اتصال مجدد به  "</string>
+    <string name="try_number">"دفعات تلاش برای اتصال مجدد:  "</string>
+    <string name="download_upload_speed_pattern">دریافت: %s ارسال: %s</string>
+    <string name="refresh_token">بروزرسانی کلید اتصال</string>
     <string name="play_market_link" translatable="false">https://play.google.com/store/apps/details?id=org.fptn.vpn</string>
-    <string name="close_button_text">Close</string>
-    <string name="share_via_message">Share via message</string>
-    <string name="sni_text_description">Server Name Indication (SNI) — the website address declared when connecting to a VPN server. Please specify some popular website accessible without a VPN from your country.</string>
-    <string name="your_current_sni">Your current SNI:</string>
-    <string name="default_sni" translatable="false">yandex.ru</string>
-    <string name="sni_text_view_hint">New SNI</string>
-    <string name="reset_default_button">Reset to default</string>
-    <string name="access_token_format">Invalid token format! Check the correctness of the input.</string>
-    <string name="warning">Warning</string>
+    <string name="close_button_text">بستن</string>
+    <string name="share_via_message">اشتراک گذاری در قالب پیام</string>
+    <string name="sni_text_description">اس‌ان‌آی، آدرس وبسایتی که هنگام اتصال، به سرور اعلام می‌شود. آدرس وبسایتی که بدون فیلتر باز می‌شود را وارد کنید‌.</string>
+    <string name="your_current_sni">آدرس فعلی:</string>
+    <string name="default_sni" translatable="false">aparat.com</string>
+    <string name="sni_text_view_hint">آدرس جدید</string>
+    <string name="reset_default_button">بازنشانی</string>
+    <string name="access_token_format">کلید اتصال مشکل دارد، کلید را دوباره وارد کنید.</string>
+    <string name="warning">هشدار</string>
 
-    <string name="battery_optimization_request_dialog_title">Battery Optimization</string>
-    <string name="battery_optimization_request_dialog_text">For a stable connection, please grant permission to disable battery optimization for this app</string>
+    <string name="battery_optimization_request_dialog_title">بهینه سازی باتری</string>
+    <string name="battery_optimization_request_dialog_text">برای اتصال پایدار، بهینه سازی باتری برای این برتامه را خاموش کنید.</string>
 
-    <string name="required_permissions">Required permissions:</string>
-    <string name="granted_text">GRANTED</string>
-    <string name="denied_text">DENIED</string>
+    <string name="required_permissions">دسترسی های مورد نیاز: </string>
+    <string name="granted_text">اعطا شد</string>
+    <string name="denied_text">رد شد</string>
 
-    <string name="show_notification_label">Show notifications</string>
-
-
-    <string name="background_data_request_dialog_title">Background data transfer</string>
-    <string name="background_data_request_dialog_text">For a stable connection, please grant permission to disable data transfer restrictions in background for this app</string>
-    <string name="permission_warning_text">For a stable connection, please grant required permissions on Settings screen</string>
-
-    <string name="permission_request_title">Permissions request</string>
-    <string name="permission_request_text">For a stable connection, please grant required permissions</string>
+    <string name="show_notification_label">نشان دادن نوتیفیکیشن</string>
 
 
-    <string name="sponsors_text">Thanks to our sponsors</string>
+    <string name="background_data_request_dialog_title">انتقال داده در پس‌زمینه</string>
+    <string name="background_data_request_dialog_text">برای اتصال پایدار، دسترسی انتقال داده در پس زمینه را اعطا کنید. </string>
+    <string name="permission_warning_text"> برای اتصال پایدار، لطفاً مجوزهای لازم را در صفحه تنظیمات اعطا کنید.. </string>
+
+    <string name="permission_request_title">درخواست مجوز</string>
+    <string name="permission_request_text">برای اتصال مجوز، دسترسی های مورد نیاز را اعطا کنید. </string>
+
+
+    <string name="sponsors_text">با تشکر از</string>
 
 
     <string name="sponsors_usernames" translatable="false">
@@ -156,23 +156,25 @@ https://play.google.com/store/apps/details?id=org.fptn.vpn
         •&nbsp;&nbsp;ragdollmaster<br/>
         ]]>
     </string>
-    <string name="experimental_features_label">Experimental features</string>
-    <string name="experimental_features_info">Enable or disable experimental features to prevent disruption of core functionality.</string>
-    <string name="reconnect_on_change">Reconnect on changing:</string>
-    <string name="reconnect_on_change_network_type">of network type</string>
-    <string name="reconnect_on_change_ip_address">of IP address</string>
+    <string name="experimental_features_label">ویژگی‌های آزمایشی</string>
+    <string name="experimental_features_info">برای کاربران حرفه‌ای</string>
+    <string name="reconnect_on_change">اتصال مجدد هنگام:</string>
+    <string name="reconnect_on_change_network_type">تغییر اینترنت</string>
+    <string name="reconnect_on_change_ip_address">تغییر آدرسی آی‌پی</string>
 
-    <string name="reconnection_on_failure_attempts">Reconnection on failure attempts:</string>
-    <string name="attempts_count">Attempts count:</string>
-    <string name="delay_between_attempts">Delay between:</string>
+    <string name="reconnection_on_failure_attempts">اتصال مجدد هنگام خطا</string>
+    <string name="attempts_count">تعداد تلاش ها برای اتصال مجدد</string>
+    <string name="delay_between_attempts">مکث بین تلاش‌ها</string>
 
     <string name="delay_between_attempts_seconds">"%d s"</string>
     <string name="reconnect_attempts_text">"%d"</string>
 
-    <string name="another_settings">Another settings:</string>
-    <string name="quick_settings_tile">Quick settings tile</string>
-    <string name="tile_already_added">Tile already added</string>
-    <string name="tile_added_successfully">Tile added successfully</string>
-    <string name="tile_addition_failed">Tile addition failed!</string>
-    <string name="tile_android_version_too_low">Android version too low</string>
+    <string name="another_settings">تنظیمات دیگر:</string>
+    <string name="quick_settings_tile">بخش تنظیمات</string>
+    <string name="tile_already_added">قبلا اضافه شده</string>
+    <string name="tile_added_successfully">اضافه شد</string>
+    <string name="tile_addition_failed">افزودن با مشکل برخورد</string>
+    <string name="tile_android_version_too_low">این نسخه از اندروید پشتیبانی نمی‌شود.</string>
 </resources>
+
+work by Seyyed Radin
